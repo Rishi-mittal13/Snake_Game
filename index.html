@@ -1,47 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlazeCalc: Simple Calculator</title>
+    <title>Snake Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1 class="textcent">BlazeCalc</h1>
-    <div class = "container">
-        <div class = "input"><input type="text" ></div>
-        <div class =  "row">
-            <button class ="btn">AC</button>
-            <button class ="btn">CE</button>
-            <button class ="btn">%</button>
-            <button class ="btn">/</button>
+    <canvas id="canvas" height="660" width="1100">
+    </canvas>
+    <div id="label-page">
+            <h3>LEVELS</h3>
+            <ulc id = "ullist">
+                <li>Easy</li>
+                <li>Medium</li>
+                <li>Hard</li>
+            </ulc>
         </div>
-        <div class =  "row">
-            <button class ="btn">7</button>
-            <button class ="btn">8</button>
-            <button class ="btn">9</button>
-            <button id ="btn_mul">×</button>
-        </div>
-        <div class =  "row">
-            <button class ="btn">4</button>
-            <button class ="btn">5</button>
-            <button class ="btn">6</button>
-            <button class ="btn">-</button>
-        </div>
-        <div class =  "row">
-            <button class ="btn">1</button>
-            <button class ="btn">2</button>
-            <button class ="btn">3</button>
-            <button class ="btnPlus">+</button>
-        </div>
-        <div class =  "row">
-            <button class ="btn">0</button>
-            <button class ="btn">.</button>
-            <button class ="btn">=</button>
-        </div>
-    </div>
-    <p class="footer">Made by &copy; Rishi Mittal</p>
-    
-    <script src="index.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
